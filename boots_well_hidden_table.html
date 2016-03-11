@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  <title>Bootstrap Tutorial</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ <div class="container">
+ 
+   <div class="well hidden-sm hidden-md hidden-lg">hidden1</div>
+   <div class="well hidden-md hidden-lg">hidden2</div>
+   <div class="well hidden-lg">hidden3</div>
+   <div class="well" >hidden4</div>
+   
+   <div class="row">
+    <!-- We could move it to the right with a blank div <div class="col-md-6"></div> -->
+	<div class="col-md-offset-6 col-md-6">
+	    <table class="table table-bordered table-striped table-hover">
+		   <thead>
+		      <th class="text-center"></th>
+		      <th class="text-center">Car</th>
+			  <th class="text-center">Computer</th>
+			  <th class="text-center">Mobile</th>
+		   </thead>
+		   <tbody>
+		     <tr>
+			   <td><a href="#">luxery</a></td>
+			   <td class="text-center">Ford</td>
+			   <td class="text-center">Mac</td>
+			   <td class="text-center">Iphone</td>
+			 </tr>
+			 <tr>
+			   <td><a href="#">middle-class</a></td>
+			   <td class="text-center">Toyota</td>
+			   <td class="text-center">Samsung</td>
+			   <td class="text-center">Samsung</td>
+			 </tr>
+			 <tr>
+			   <td><a href="#">low-end</a></td>
+			   <td class="text-center">Mercedes</td>
+			   <td class="text-center">Motorola</td>
+			   <td class="text-center">Nexus</td>
+			 </tr>		 
+		   </tbody>
+		</table>
+	</div>
+   
+   </div>
+  
+ </div><!--container-->
+ <script src="js/jquery-2.1.4.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
